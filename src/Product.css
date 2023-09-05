@@ -1,0 +1,61 @@
+/* Product.css */
+
+/* Style for the whole Product component */
+.Product {
+  display: flex; /* Use flexbox for layout */
+  margin-left: 200px; /* Center align items horizontally */ /* Align items to the top by default */
+  padding-top: 100px 20px; /* Add space for the sidebar */
+
+}
+
+/* Style for the sidebar (left side) */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  background-color: transparent;
+  padding-top: 20px;
+}
+
+/* Style for the ProductPost component (centered) */
+.ProductPost {
+  flex: 1; /* Allow it to take up available space */
+  max-width: 400px; /* Set a maximum width for centering */
+  padding: 20px;
+  background-color: transparent;
+  color: black; /* Set a background color for the form */
+}
+
+/* Style for the table (right side) */
+table {
+  flex: 2; /* Allow the table to take up more space (adjust this value as needed) */
+  border-collapse: collapse;
+  width: 100%; /* Fill the available width */
+  color: black; /* Set the text color */
+  margin-left: 80px; /* Add margin to separate it from the ProductPost */
+}
+
+table th,
+table td {
+  border: 1px solid #ccc; /* Add borders to table cells */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Optionally, you can add styles for table headers and table rows */
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+.submit-button {
+  display: block; /* Display the button as a block-level element (on a new line) */
+  margin-top: 10px; /* Add some space above the button */
+}

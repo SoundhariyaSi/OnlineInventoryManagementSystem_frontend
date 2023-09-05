@@ -1,0 +1,73 @@
+/* Delete.css */
+
+.App {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logInform {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#btn4 {
+  background-color: peachpuff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btn4:hover {
+  background-color: #45a049;
+}
+
+#btn4-text {
+  background-color: #e88a61;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  display: none;
+}
+
+.isSubmitted #btn4-text {
+  display: block;
+}

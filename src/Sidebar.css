@@ -1,0 +1,71 @@
+/* Sidebar.css */
+/* Sidebar.css */
+.sidebar {
+  width: 200px; /* Reduce the width to 200px */
+  height: 100%;
+  background-color:#FBCEB1;
+  color: hsl(0, 48%, 87%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: Arial, sans-serif;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    padding: 0 20px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #CD7F32; /* Dark text color for links */
+    font-size: 16px; /* Slightly smaller font size for links */
+  }
+  
+  .sidebar a:hover {
+    color: #fff; /* White text color on hover */
+    background-color:#F88379; /* Light blue background on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    border-radius: 25%;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 40px 0; /* Adjust as needed for vertical spacing */
+    padding: 0 20px; /* Adjust as needed for horizontal spacing */
+    font-weight: bold;
+  } 
+  /* Example: Apply hover effect to sidebar title */
+.sidebar h1:hover {
+    color: #fff;
+    transform: scale(1.05); /* Scale the title on hover */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition */
+  }
+
+
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .sidebar {
+    /* Your existing styles */
+    animation: slide-in 0.5s ease-in-out; /* Apply the animation to the sidebar */
+  }

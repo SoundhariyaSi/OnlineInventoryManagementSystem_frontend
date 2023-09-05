@@ -1,0 +1,73 @@
+/* Update.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:#ec968e;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logInnform {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  border-width: 0.5px;
+
+  
+}
+
+.logInnform p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #CD7f32; /* Set the text color to complement #CD7f32 */
+}
+.logInnform input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 0.5px solid #ccc; /* Adjust the border width as needed */
+  border-radius: 1px;
+}
+
+.btnncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+#btn4 {
+  background-color:#ec968e ;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#btn4:hover {
+  background-color: #a26635; /* Darker shade for hover effect */
+}
+
+#btn4-text {
+  margin-top: 10px;
+  font-size: 18px;
+  color:#ec968e; /* Set the text color to complement #CD7f32 */
+}
+
+.popup-message {
+  display: none;
+}
+
+.isSubmitted .popup-message {
+  display: block;
+  color: green;
+}
