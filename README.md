@@ -29,35 +29,37 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/SoundhariyaSi/OnlineInventoryManagementSystem_backend.git
-Navigate to the backend directory:
+2. **Navigate to the backend directory**:
 
 bash
 Copy code
 cd OnlineInventoryManagementSystem_backend
-Build and run the Spring Boot application:
+
+3.**Build and run the Spring Boot application**:
 
 bash
 Copy code
 ./mvnw spring-boot:run
 The backend server will run on http://localhost:8080.
 
-Frontend Setup (ReactJS)
-Clone the repository:
+### Frontend Setup (ReactJS)
+1.**Clone the repository**:
 
 bash
 Copy code
 git clone https://github.com/SoundhariyaSi/OnlineInventoryManagementSystem_frontend.git
-Navigate to the frontend directory:
 
+2.**Navigate to the frontend directory**:
 bash
 Copy code
 cd OnlineInventoryManagementSystem_frontend
-Install the dependencies:
 
+3.**Install the dependencies**:
 bash
 Copy code
 npm install
-Start the development server:
+
+4.**Start the development server**:
 
 bash
 Copy code
